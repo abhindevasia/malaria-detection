@@ -60,6 +60,7 @@ To run the project, you need Python 3.8 or higher installed along with the requi
 
 For those interested in training the model from scratch:
 
+>> some of the images from the data folder may have been truncated so try downloading from https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
 1. Prepare your dataset with labeled images (Parasitized/Non-Parasitized).
 2. Modify the `malaria_detection.ipynb` script to load your dataset.
 3. Train the model by running:
