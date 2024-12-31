@@ -15,7 +15,7 @@ class Root(Tk):
         self.minsize(640, 400)
 
         # Load the saved model
-        self.model = self.load_model("malaria_detect_model.keras")
+        self.model = self.load_model("models/malaria_detect_model.keras")
 
         # Set up the label frame
         self.labelFrame = ttk.LabelFrame(self, text="Open File")
