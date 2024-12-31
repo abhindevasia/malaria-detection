@@ -22,7 +22,7 @@ To run the project, you need Python 3.8 or higher installed along with the requi
 ## Installation
 
 1. **Clone the repository**: 
-   - Click the green "Code" button on the repository page, then copy the link and run this command in your terminal or command prompt:
+   - Click the "Code" button on the repository page, then copy the link and run this command in your terminal or command prompt:
      ```bash
      git clone https://github.com/yourusername/malaria-detection.git
      ```
@@ -35,7 +35,6 @@ To run the project, you need Python 3.8 or higher installed along with the requi
      ```
 
 3. **Download the pre-trained model**:
-   - If the model is not included in the repository, follow the instructions in the repository or contact the author for the model download link.
 
 ## How to Run
 
