@@ -14,8 +14,8 @@ from PIL import Image, ImageOps
 
 # Preparing datasets and preprocessing for model creation
 # Paths to dataset directories
-inf_train_inf_dir = r'D:\Project\malaria/train/Parasitized/'
-inf_train_norm_dir = r'D:\Project\malaria/train/Uninfected/'
+inf_train_inf_dir = 'data/train/Parasitized/'
+inf_train_norm_dir = 'data/train/Uninfected/'
 
 # Load and preprocess infected images
 infected_images = []
@@ -132,4 +132,4 @@ plt.tight_layout()
 plt.show()
 
 #saving Model
-model.save('malaria_detect_model.keras')
+model.save('models/malaria_detect_model.keras')
