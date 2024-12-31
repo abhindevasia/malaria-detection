@@ -24,9 +24,8 @@ To run the project, you need Python 3.8 or higher installed along with the requi
 1. **Clone the repository**: 
    - Click the "Code" button on the repository page, then copy the link and run this command in your terminal or command prompt:
      ```bash
-     git clone https://github.com/yourusername/malaria-detection.git
+     git clone https://github.com/abhindevasia/malaria-detection.git
      ```
-     Replace `yourusername` with your GitHub username.
 
 2. **Install the required dependencies**:
    - Install the libraries by running:
@@ -41,10 +40,10 @@ To run the project, you need Python 3.8 or higher installed along with the requi
 1. After installing the dependencies, open the repository folder in your Python IDE or file explorer.
 
 2. **Run the application**:
-   - Open the script `malaria_detector.py` (or your main Python script).
+   - Open the script `malaria_detection_prediction.py` (or your main Python script).
    - Run the script with the command:
      ```bash
-     python malaria_detector.py
+     python malaria_detection_prediction.py
      ```
 
 3. **Use the GUI**:
@@ -62,7 +61,7 @@ To run the project, you need Python 3.8 or higher installed along with the requi
 For those interested in training the model from scratch:
 
 1. Prepare your dataset with labeled images (Parasitized/Non-Parasitized).
-2. Modify the `train_model.py` script to load your dataset.
+2. Modify the `malaria_detection.ipynb` script to load your dataset.
 3. Train the model by running:
    ```bash
-   python train_model.py
+   python malaria_detection.py
