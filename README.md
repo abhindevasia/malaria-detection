@@ -1,6 +1,6 @@
 # Malaria Detection
 
-This project uses **Convolutional Neural Networks (CNN)** and **OpenCV** to detect the presence of malaria in blood smear images. The trained model classifies blood samples as either **parasitic** (malaria detected) or **non-parasitic**.
+This project uses **Convolutional Neural Networks (CNN)** and **OpenCV** to detect the presence of malaria in blood smear images. The trained model classifies blood samples as either **parasitic** (malaria detected) or **non-parasitic**. The trained images were obtained from https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria.
 
 ## Tools & Technologies
 
